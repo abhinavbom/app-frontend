@@ -1,0 +1,1 @@
+import{u as t,a as r,r as o,j as n,b as c}from"./index-b2dde0d1.js";const d=()=>{const{getUserData:e}=t(),s=r();return o.useEffect(()=>{const a=new URLSearchParams(window.location.search).get("code");a?e(a):(alert("No authorization code found in the Please try Again!"),s("/auth/signin"))},[]),n.jsx(c,{})};export{d as default};
